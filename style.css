@@ -21,6 +21,11 @@ body{
 	font-size: 24px;
 }
 
+.downBG{
+  background-color: #3f6125/*#c04f32*/;
+  transition: 3s ease;
+}
+
 
 
 .wrapper{
@@ -259,7 +264,12 @@ h4{
 	width:45%;
 	border: 3px solid #e6d7d0;
 	padding: 3% 5%;
+	transition: transform .75s;
 }
+
+.card-1:HOVER{
+		transform:rotate(-3deg);
+	}
 
 .card-2{
 	position:absolute;
@@ -394,6 +404,10 @@ footer .block-3{
   	width:15%;
   }
 
+  .img3{
+  	z-index: -1;
+  }
+
   h1{
   	width: 100%;
   	margin-bottom: 4%;
@@ -452,7 +466,6 @@ footer .block-3{
 
   .card-2{
   	width:100%;
-  	transform:rotate(0deg);
   	margin-top:0;
   }
 

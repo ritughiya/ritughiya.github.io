@@ -23,21 +23,16 @@ $(document).ready(function(){
   });
 });
 
-// gradient JS
-
-// $(document).mousemove(function(event) {
-//   windowWidth = $(window).width();
-//   windowHeight = $(window).height();
+$(document).on('scroll', function(){
   
-//   mouseXpercentage = Math.round(event.pageX / windowWidth * 300);
-//   mouseYpercentage = Math.round(event.pageY / windowHeight * 300);
+//    the scrollTop method gives us back a pixel value for how far it is from the top of the page (our current scroll position)
+  var pixelsFromTop = $(document).scrollTop()
   
-//   $('.radial-gradient').css('background', 'radial-gradient(at ' + mouseXpercentage + '10% ' + mouseYpercentage + '%, #ea5507, #4062a6)');
-// });
-
-
-// $(window).scroll(function() {
-// var theta = ($(window).scrollTop() / 10 % Math.PI ) * 0.1;
-// $('#card1').css({ transform: 'rotate(' + theta + 'rad)' });
-// $('#card2').css({ transform: 'rotate(-' + theta + 'rad)' });
-// });
+    if (pixelsFromTop < 1000){
+    $('body').css('background-color', '#4062a6')
+  } 
+    else {
+          $('body').css('background-color', '#3f6125')
+          $('body').addClass('downBG');
+  };
+  });
