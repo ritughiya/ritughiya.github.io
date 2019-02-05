@@ -500,7 +500,5 @@ footer .block-3{
 }
 
 /* move all images to back */
-img{
-	z-index: -1;
-}
+
 }
