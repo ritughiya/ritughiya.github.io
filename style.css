@@ -21,6 +21,8 @@ body{
 	font-size: 24px;
 }
 
+
+
 .wrapper{
 	margin:2% 5%;
 }
@@ -86,9 +88,22 @@ h4 .sans{
 	font-weight: normal;
 }
 
+.champion-med a:hover, 
+.sans-large a:hover{
+	color: #f24131;
+			border-bottom: 3px solid #f24131;
+}
+
 .champion-med a, .sans-large a{
 	text-decoration:none;
 		color: #e6d7d0;
+		display:inline-block;
+		line-height: 1.1em;
+		border-bottom: 3px solid #e6d7d0;
+}
+
+.home img:hover{
+		color: #f24131;
 }
 
 .champion-small{
@@ -367,7 +382,7 @@ footer .block-3{
 }
 
 /* On screens that are 600px or less, set the background color to olive */
-@media (min-width: 320px) and (max-width: 800px) {
+@media (min-width: 320px) and (max-width: 850px) {
   body {
     font-size:20px;
   }
