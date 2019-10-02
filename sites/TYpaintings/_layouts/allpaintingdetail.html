@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+	<meta charset="utf-8">
+	<title>Taeyoon Choi</title>
+	<link href="{{site.baseurl}}/css/normalize.css" rel="stylesheet">
+	<link href="{{site.baseurl}}/css/common.css" rel="stylesheet">
+</head>
+
+<body class="alldetail">
+
+<header class="sticky-header">
+	{% include allpaintingdetail-nav.html %}
+</header>
+
+<div class="top-padding-detail"></div>
+	<img class="painting-container {% if page.orientation == 'horizontal'%}painting-container-horizontal{%endif%}" src="{{site.baseurl}}/img/{{page.image}}" alt="{{page.alt-text}}"> 
+
+{% include allpainting-detail-footer.html %}
+
+</body>
+</html>
