@@ -1,7 +1,7 @@
 
 @font-face {
   font-family: "fantasque";
-  src: url("assets/fonts/FantasqueSansMono-RegItalic");
+  src: url("assets/fonts/FantasqueSansMono-RegItalic.otf");
 }
 
 html{
@@ -455,7 +455,7 @@ transition: opacity 0.3s linear;}
 }
 
 .video-title{
-	font-size: 1.1em;
+	font-size: 1em;
 		font-weight: 700;
 }
 
