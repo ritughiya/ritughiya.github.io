@@ -323,10 +323,10 @@ footer{
 
 .nav-logo{
 /*	font-family: "black-italic";
-	font-style:italic;*/
+*/	font-weight: bold;
 	margin-top: 2vh;
-  letter-spacing: 2px;
-}
+/*  letter-spacing: 2px;
+*/}
 
 .nav-logo img{
     width:10vw;
@@ -520,7 +520,7 @@ transition: opacity 0.3s linear;}
 }
 
 .sections, .sub{
-      margin-top: 1.5vh;
+      margin-top: 2vh;
 }
 
 
