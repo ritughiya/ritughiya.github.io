@@ -29,7 +29,7 @@ html{
 	font-family: Arial;
 	font-size: 14px;
 	font-style: normal;
-	  background: #FFFFF0;
+	  background: #ededed;
 }
 
 a{
@@ -53,7 +53,7 @@ max-width:1800px;
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #FFFFF0; 
+  background: #ededed; 
 }
  
 /* Handle */
@@ -64,7 +64,7 @@ max-width:1800px;
 /*about bg styles */
 
 #about-bg{
-      background: #FFFFF0;
+      background: #ededed;
       top: 0;
       left: 0;
       width: 100vw;
@@ -76,7 +76,7 @@ max-width:1800px;
 }
 
 .default-header{
-            background: #FFFFF0;
+            background: #ededed;
 }
 
 .fixed-about{
@@ -91,7 +91,7 @@ max-width:1800px;
   top:0;
   left:0;
     position: fixed;
-/*        background: #FFFFF0;
+/*        background: #ededed;
 */}
 
 
@@ -99,7 +99,7 @@ max-width:1800px;
 
 /*.about-body, .about-header .nav-copy{
   background-color: black;
-  color: #FFFFF0 !important;
+  color: #ededed !important;
 }*/
 
 .about-arrow{
@@ -162,7 +162,7 @@ margin-top: 4vh;
 
 
 #loader-bg{
-	  background: #FFFFF0;
+	  background: #ededed;
 	  	z-index: 200;
 	  	position: fixed;
 	  	overflow: hidden;
@@ -175,7 +175,7 @@ margin-top: 4vh;
   left: 50%;
   transform: translate(-50%, -50%);
 /*  filter: blur(15px) contrast(30);
-*/  background: #FFFFF0;
+*/  background: #ededed;
   	  	width:100vw;
 	  	height:100%;
 }
