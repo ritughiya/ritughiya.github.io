@@ -345,7 +345,7 @@ align-items: flex-start;
   width:98%;
   padding: 0 1%;
   z-index: 150;
-padding-bottom: 2vh;
+padding-bottom: 1vh;
 
 }
 
@@ -376,7 +376,7 @@ h1{
 }
 
 .block:first-child{
-    margin-top: 12.5vh;
+    margin-top: 8vh;
 }
 
 .fancylink{
