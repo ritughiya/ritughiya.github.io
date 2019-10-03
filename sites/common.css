@@ -324,7 +324,6 @@ footer{
 .nav-logo{
 /*	font-family: "black-italic";
 */	font-weight: bold;
-	margin-top: 2vh;
 /*  letter-spacing: 2px;
 */}
 
@@ -337,7 +336,7 @@ footer{
 /*	margin-left: -6vw;
 */}
 
-.sections, .sub{
+.sections, .sub, .nav-logo{
 			margin-top: 3.5vh;
 }
 
@@ -505,10 +504,6 @@ transition: opacity 0.3s linear;}
     margin-right:0;
   }
 
-  .nav-logo{
-  margin-top: 1vh;
-}
-
 .logo{
   width: 10vw;
   margin-right: 3.5vw;
@@ -519,7 +514,7 @@ transition: opacity 0.3s linear;}
   margin-left: 0;
 }
 
-.sections, .sub{
+.sections, .sub, .nav-logo{
       margin-top: 2vh;
 }
 
