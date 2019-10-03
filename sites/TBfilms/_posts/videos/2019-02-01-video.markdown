@@ -1,0 +1,10 @@
+---
+layout: default
+title:  Jesse Ridgway (McJuggerNuggets) | Uncomfortably Close - Above Average Original Series
+date:   2019-02-01
+meta: Editor
+categories: videos
+link: https://www.youtube.com/watch?v=BgKL4KOKJZk&t
+---
+
+<img src="{{site.url}}/assets/ridgway.png">
