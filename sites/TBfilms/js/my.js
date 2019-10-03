@@ -1,6 +1,7 @@
-setTimeout(function(){
+$(window).on('load', function() {
      $('#loader-bg').hide();
- }, 5000);
+
+ });
 
 function display(){
   document.getElementById("about-bg").style.display = "block";
