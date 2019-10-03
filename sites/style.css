@@ -1,0 +1,10 @@
+a{
+  text-decoration: none !important;
+  color: inherit;
+}
+
+a:hover{
+	position: relative;
+    left: 20px;
+    cursor: alias;
+}
