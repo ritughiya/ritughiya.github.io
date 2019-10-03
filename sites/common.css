@@ -1,26 +1,7 @@
-@font-face {
-  font-family: "antique";
-  src: url("/assets/fonts/AntiqueOliveRegular.ttf");
-}
 
 @font-face {
-  font-family: "black-italic";
-  src: url("/assets/fonts/SERIBLI_.ttf");
-}
-
-@font-face {
-  font-family: "sangbleu";
-  src: url("/assets/fonts/SangBleuSunriseTrial-MediumItalic.otf");
-}
-
-@font-face {
-  font-family: "avenir";
-  src: url("/assets/fonts/Avenir.ttc");
-}
-
-@font-face {
-  font-family: "avenir-next";
-  src: url("/assets/fonts/Avenir-Next.ttc");
+  font-family: "fantasque";
+  src: url("assets/fonts/FantasqueSansMono-RegItalic");
 }
 
 html{
@@ -322,8 +303,7 @@ footer{
 }
 
 .nav-logo{
-/*	font-family: "black-italic";
-*/	font-weight: bold;
+	font-family: "fantasque";
 /*  letter-spacing: 2px;
 */}
 
@@ -487,6 +467,10 @@ transition: opacity 0.3s linear;}
 
 @media only screen and (max-width: 1000px) {
 
+  html{
+    font-size: 12px;
+  }
+
 .nav-logo img{
     width:15vw;
 }
@@ -515,7 +499,7 @@ transition: opacity 0.3s linear;}
 }
 
 .sections, .sub, .nav-logo{
-      margin-top: 2vh;
+      margin-top: 1vh;
 }
 
 
