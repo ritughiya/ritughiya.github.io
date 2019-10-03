@@ -322,8 +322,8 @@ footer{
 }
 
 .nav-logo{
-	font-family: "black-italic";
-	font-style:italic;
+/*	font-family: "black-italic";
+	font-style:italic;*/
 	margin-top: 2vh;
   letter-spacing: 2px;
 }
