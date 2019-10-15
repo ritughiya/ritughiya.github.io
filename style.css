@@ -44,9 +44,9 @@ a:hover{
 	}
 
 	.sans{
-		line-height: 1;
+		line-height: 1.15;
 	}
-	
+
 	.text{
 	width: 95vw;
 }
