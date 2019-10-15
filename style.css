@@ -39,8 +39,17 @@ a:hover{
 
 @media only screen and (max-width: 800px) {
 
+	body{
+		overflow:hidden;
+		font-size: 15px;
+	}
+
+	.sans{
+		line-height: 1.5;
+	}
+
 	.text{
-	width: 80vw;
+	width: 100vw;
 }
 
 }
