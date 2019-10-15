@@ -1,0 +1,37 @@
+body{
+	width: 100vw;
+	height:100vh;
+	background: #FFEEEE;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #DDEFBB, #FFEEEE);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #DDEFBB, #FFEEEE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.sans{
+	font-family:Arial;
+	font-size: 14px;
+	line-height: 1.25;
+}
+
+.mono{
+	font-family: Courier;
+	font-size: 13px;
+}
+
+.text{
+	width:450px;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+ul{ 
+	  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a:hover{
+	    cursor: alias;
+}
