@@ -43,8 +43,12 @@ a:hover{
 		overflow:hidden;
 	}
 
+	.sans{
+		line-height: 1;
+	}
+	
 	.text{
-	width: 98vw;
+	width: 95vw;
 }
 
 }
