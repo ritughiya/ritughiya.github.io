@@ -41,15 +41,10 @@ a:hover{
 
 	body{
 		overflow:hidden;
-		font-size: 15px;
-	}
-
-	.sans{
-		line-height: 1.5;
 	}
 
 	.text{
-	width: 100vw;
+	width: 98vw;
 }
 
 }
