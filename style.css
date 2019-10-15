@@ -4,17 +4,18 @@ body{
 	background: #FFEEEE;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to bottom, #DDEFBB, #FFEEEE);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to bottom, #DDEFBB, #FFEEEE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+font-size: 14px;
 }
 
 .sans{
 	font-family:Arial;
-	font-size: 14px;
+	font-size: 1em;
 	line-height: 1.25;
 }
 
 .mono{
 	font-family: Courier;
-	font-size: 13px;
+	font-size: .9em;
 }
 
 .text{
@@ -34,4 +35,12 @@ ul{
 
 a:hover{
 	    cursor: alias;
+}
+
+@media only screen and (max-width: 800px) {
+
+	body{
+		font-size: 20px;
+	}
+
 }
