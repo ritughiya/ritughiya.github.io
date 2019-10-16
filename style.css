@@ -1,7 +1,6 @@
 body{
 	width: 100vw;
-	min-height:100vh;
-min-height: -webkit-fill-available;
+	height:100vh;
 color: #232b2b;
 font-size: 13px;
 margin: 0 !important;
@@ -23,7 +22,7 @@ background: linear-gradient(328deg, rgba(221,239,187,1) 0%, rgba(247,238,255,1) 
 .text{
 	padding: 1.5vw 0 0 1.5vw;
 	width:450px;
-	height: 90vh;
+	height: 90%;
 			display:flex;
 		flex-direction: column;
 		justify-content: space-between;
