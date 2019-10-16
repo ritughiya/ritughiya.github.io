@@ -3,7 +3,7 @@ body{
 	min-height:100vh;
 min-height: -webkit-fill-available;
 color: #232b2b;
-font-size: 14px;
+font-size: 13px;
 margin: 0 !important;
 	}
 
@@ -11,22 +11,26 @@ margin: 0 !important;
 	position:absolute;
 	width:100vw;
 	height: 100vh;
-	z-index: -100;
-background: #FFEEEE;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #DDEFBB 0, #FFEEEE 50%);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom, #DDEFBB 0, #FFEEEE 50%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	z-index: -100;/*
+background: #FFEEEE;  
+background: -webkit-linear-gradient(to bottom, #DDEFBB 0, #FFEEEE 50%); 
+background: linear-gradient(to bottom, #DDEFBB 0, #FFEEEE 50%); 
+*/
+background: rgb(221,239,187);
+background: linear-gradient(328deg, rgba(221,239,187,1) 0%, rgba(247,238,255,1) 90%);
 }
 
 .text{
-	padding: 2vw 0 0 2vw;
+	padding: 1.5vw 0 0 1.5vw;
 	width:450px;
+	height: 90vh;
 			display:flex;
 		flex-direction: column;
 		justify-content: space-between;
 }
 
 .sans{
-	font-family:Arial;
+	font-family: Helvetica;
 	font-size: 1em;
 	line-height: 1.25;
 }
@@ -62,7 +66,7 @@ a:hover{
 	    cursor: alias;
 }
 
-@media only screen and (max-width: 786px) {
+@media only screen and (max-width: 500px) {
 
 	body{
 		overflow:hidden;
@@ -73,7 +77,6 @@ a:hover{
 	}
 
 	.sans{
-		line-height: 1.15;
 	}
 
 	.text{
