@@ -1,6 +1,7 @@
 body{
 	width: 100vw;
-	  height: calc(var(--vh, 1vh) * 100);
+	min-height:100vh;
+min-height: -webkit-fill-available;
 color: #232b2b;
 font-size: 14px;
 margin: 0 !important;
@@ -21,7 +22,6 @@ background: linear-gradient(to bottom, #DDEFBB 0, #FFEEEE 50%); /* W3C, IE 10+/ 
 	width:450px;
 			display:flex;
 		flex-direction: column;
-	  height: 93%;
 		justify-content: space-between;
 }
 
