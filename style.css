@@ -22,7 +22,7 @@ background: linear-gradient(328deg, rgba(221,239,187,1) 0%, rgba(247,238,255,1) 
 .text{
 	padding: 1.5vw 0 0 1.5vw;
 	width:450px;
-	height: 90%;
+	height: 90vh;
 			display:flex;
 		flex-direction: column;
 		justify-content: space-between;
@@ -65,21 +65,19 @@ a:hover{
 	    cursor: alias;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 700px) {
 
 	body{
 		overflow:hidden;
 	}
 
-	.text{
-
-	}
+		.text{
+	width: 90vw;
+}
 
 	.sans{
 	}
 
-	.text{
-	width: 90vw;
-}
+
 
 }
