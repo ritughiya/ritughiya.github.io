@@ -1,23 +1,29 @@
+    html {
+        height: auto;
+background: rgb(221,239,187) ;
+background: linear-gradient(328deg, rgba(221,239,187,1) 0%, rgba(247,238,255,1) 90%);
+    }
+
 body{
+	       height: 100vh;
+	         height: calc(100vh - var(--vh-offset, 0px));
+        background-attachment: fixed;
+        background-size: cover;
 	width: 100vw;
-	height:100vh;
 color: #232b2b;
 font-size: 13px;
 margin: 0 !important;
+
 	}
 
-.background-color{
+/*.background-color{
 	position:absolute;
 	width:100%;
 	height: 100%;
-	z-index: -100;/*
-background: #FFEEEE;  
-background: -webkit-linear-gradient(to bottom, #DDEFBB 0, #FFEEEE 50%); 
-background: linear-gradient(to bottom, #DDEFBB 0, #FFEEEE 50%); 
-*/
+	z-index: -100;
 background: rgb(221,239,187);
 background: linear-gradient(328deg, rgba(221,239,187,1) 0%, rgba(247,238,255,1) 90%);
-}
+}*/
 
 .text{
 	padding: 1.5vw 0 0 1.5vw;
@@ -72,7 +78,6 @@ a:hover{
 	}
 
 .background-color{
-	overflow:hidden;
 }
 
 		.text{
