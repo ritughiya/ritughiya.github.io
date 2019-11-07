@@ -10,7 +10,7 @@ html{
 	font-family: Arial;
 	font-size: 14px;
 	font-style: normal;
-	  background: #ededed;
+	  background: #fbe9df;
 }
 
 a{
@@ -34,7 +34,7 @@ max-width:1800px;
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #ededed; 
+  background: #fbe9df; 
 }
  
 /* Handle */
@@ -45,7 +45,7 @@ max-width:1800px;
 /*about bg styles */
 
 #about-bg{
-      background: #ededed;
+      background: #fbe9df;
       top: 0;
       left: 0;
       width: 100vw;
@@ -57,7 +57,7 @@ max-width:1800px;
 }
 
 .default-header{
-            background: #ededed;
+            background: #fbe9df;
 }
 
 .fixed-about{
@@ -143,7 +143,7 @@ margin-top: 4vh;
 
 
 #loader-bg{
-	  background: #ededed;
+	  background: #fbe9df;
 	  	z-index: 200;
 	  	position: fixed;
 	  	overflow: hidden;
@@ -156,7 +156,7 @@ margin-top: 4vh;
   left: 50%;
   transform: translate(-50%, -50%);
 /*  filter: blur(15px) contrast(30);
-*/  background: #ededed;
+*/  background: #fbe9df;
   	  	width:100vw;
 	  	height:100%;
 }
