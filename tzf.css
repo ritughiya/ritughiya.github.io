@@ -1,0 +1,42 @@
+body{
+background-color: #F4E584;
+}
+
+.background{
+	position:fixed;
+	top:0;
+	left:0;
+	width: 100vw;
+	height:100vh;
+	overflow-y:hidden;
+}
+
+.background img{
+	min-height:100%;
+	width:100%;
+	object-fit:cover;
+	object-position: left top;
+}
+
+.text{
+	position:fixed;
+	background-color: white;
+/*	  border-radius: 25px;
+*/	  width:300px;
+	  border: 1px solid silver;
+	  padding: 15px;
+	  font-size:14px;
+	-webkit-box-shadow: 11px 10px 65px 1px rgba(150,146,163,1);
+-moz-box-shadow: 11px 10px 65px 1px rgba(150,146,163,1);
+box-shadow: 11px 10px 65px 1px rgba(150,146,163,1);
+transition: box-shadow 1s;
+
+
+}
+
+.text:hover{
+
+-webkit-box-shadow: 11px 10px 65px 1px #b8a2b7;
+-moz-box-shadow: 11px 10px 65px 1px #b8a2b7;
+box-shadow: 11px 10px 65px 1px #b8a2b7;
+}
